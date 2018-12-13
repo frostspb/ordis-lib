@@ -8,3 +8,8 @@
 $ npm install ordis-lib
 
 ```
+
+## Dependences:
+
+Vuetify
+https://vuetifyjs.com/ru/

@@ -1,10 +1,10 @@
 <script>
 export default {
-  name: "OrdisActionButton", // vue component name
+  name: "OrdisActionButton",
   props: {
     btnIcon: {
       type: String,
-      default: "home"
+      default: "help_outlinr"
     },
 
     btnTooltip: {
