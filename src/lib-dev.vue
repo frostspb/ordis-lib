@@ -1,23 +1,17 @@
 <script>
-import { OrdisLibSample } from './entry';
+import { OrdisActionButton } from "./entry";
 export default {
-    name:  'OrdisLibLibDev', // vue library dev component
-    components: {
-        OrdisLibSample,
-    },
-}
+  name: "OrdisLibLibDev", // vue library dev component
+  components: {
+    OrdisActionButton
+  }
+};
 </script>
 
 <template>
-    <div class="ordis-lib-lib-dev">
-        <ordis-lib-sample></ordis-lib-sample>
+  <div>
+    <div>
+      <ordis-action-button/>
     </div>
+  </div>
 </template>
-
-<style scoped>
-    .ordis-lib-lib-dev {
-        display: block;
-        width: 400px;
-        margin: 25px auto;
-    }
-</style>
