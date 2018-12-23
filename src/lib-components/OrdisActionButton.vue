@@ -4,7 +4,7 @@ export default {
   props: {
     btnIcon: {
       type: String,
-      default: "help_outlinr"
+      default: "help_outline"
     },
 
     btnTooltip: {
@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     btnClick: function() {
-      this.$emit("click");
+      this.$emit("click")
     }
   }
 };

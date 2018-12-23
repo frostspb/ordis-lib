@@ -1,5 +1,5 @@
 <script>
-import OrdisActionButton from './ordis-action-button.vue'
+import OrdisActionButton from './OrdisActionButton.vue'
 export default {
   name: "OrdisEditorFooterControl"  ,
   components: { OrdisActionButton },

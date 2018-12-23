@@ -1,7 +1,6 @@
 <script>
 export default {
   name: "OrdisCardPage"  ,
-  components: {},
   props: {
     pageIcon: {
       type: String,
@@ -17,15 +16,15 @@ export default {
 
 <template>
   <div>
-    <v-card>
+    <v-card class="elevation-20">
         <v-toolbar   dense>
           <v-toolbar-title >
-            <v-icon>{{ pageIcon }}</v-icon>&nbsp;&nbsp;&nbsp;{{ pageTitle }}
+            <v-icon>{{ pageIcon }}</v-icon>{{ pageTitle }}
           </v-toolbar-title>
-          <v-spacer></v-spacer>
-           <slot name="menu"></slot> 
+          <v-spacer/>
+          <slot name="menu"></slot>
         </v-toolbar>
-        <div class="ordis_page_cont">
+        <div class="ordis_page_content">
             <slot name="content"></slot>
         </div>  
     </v-card>
@@ -33,7 +32,7 @@ export default {
 </template>
 
 <style scoped>
-.ordis_page_cont {
+.ordis_page_content {
   padding-top: 0.3%;
 }
 </style>

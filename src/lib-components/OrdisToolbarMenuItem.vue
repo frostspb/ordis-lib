@@ -28,8 +28,8 @@ export default {
   <div>
     <v-list-tile>
       <v-btn flat @click="itemClick">
-        <v-icon :color="itemColor">{{itemIcon}}</v-icon>
-        &nbsp; {{itemTitle}}
+        <v-icon :color="itemColor">{{ itemIcon }}</v-icon>
+        &nbsp; {{ itemTitle }}
       </v-btn>
     </v-list-tile>
   </div>
