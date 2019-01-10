@@ -1,6 +1,6 @@
 {
   "name": "ordis-lib",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Vue components based on Vuetify",
   "main": "dist/ordis-lib.umd.js",
   "module": "dist/ordis-lib.esm.js",

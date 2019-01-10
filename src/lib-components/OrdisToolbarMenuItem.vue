@@ -9,7 +9,7 @@ export default {
   props: {
     itemIcon: {
       type: String,
-      default: "help_outlinr"
+      default: "help_outline"
     },
 
     itemTitle: {
