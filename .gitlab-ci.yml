@@ -1,0 +1,25 @@
+stages:
+  - test
+  - build
+
+
+
+test:
+  stage: test
+  script:
+    - echo "Running tests"
+    - npm run test
+
+build_prod:
+  stage: build
+  script:
+    - echo "Building production package"
+    
+
+  only:
+  - master
+
+
+
+
+
