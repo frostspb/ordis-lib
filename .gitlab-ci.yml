@@ -21,7 +21,8 @@ build_prod:
   stage: build
   script:
     - echo "Building production package"
-    
+    - npm run build
+    - npm publish
 
   only:
   - master
